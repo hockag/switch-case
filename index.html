@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<form id="myForm">
+    <select id="mySelect">
+        <option value="">Виберіть напій</option>
+        <option value="Кава">Кава</option>
+        <option value="Чай">Чай</option>
+        <option value="Сік">Сік</option>
+    </select>
+    <button type="submit">Підтвердити</button>
+</form>
+
+<div id="message"></div>
+
+<input type="text" id="calendar" placeholder="Введіть день тижня">
+<button id="checkButton">перевірити</button>
+<div id="message2"></div>
+
+
+<h2>Введіть номер місяця</h2>
+<input type="text" id="month" placeholder="Номер місяця">
+<button onclick="getSeason()">Визначити пору року</button>
+<p id="season"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
