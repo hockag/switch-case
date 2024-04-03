@@ -30,3 +30,37 @@ checkButton.addEventListener('click', function () {
             message2.textContent = "Введено не коректні дні";
     }
 })
+// 3
+
+
+function getSeason() {
+    let month = document.querySelector('#month').value;
+    let season;
+
+    switch (month) {
+        case '12':
+        case '1':
+        case '2':
+            season = "Зима";
+            break;
+        case '3':
+        case '4':
+        case '5':
+            season = "Весна";
+            break;
+        case '6':
+        case '7':
+        case '8':
+            season = "Літо";
+            break;
+        case '9':
+        case '10':
+        case '11':
+            season = "Осінь";
+            break;
+        default:
+            season = "Будь ласка введіть вірний номер місяця";
+    }
+    document.getElementById("result").innerHTML = season;
+}
+// 4
