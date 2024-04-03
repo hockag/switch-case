@@ -31,6 +31,32 @@
 <button onclick="getSeason()">Визначити пору року</button>
 <p id="result"></p>
 
+<h2>Введіть номер місяця</h2>
+
+<input id="month-2" type="number" min="1" max="12">
+<button onclick="getDays()">Показати кількість днів</button>
+
+<p id="result-2"></p>
+
+
+<h2>Введіть назву кольору</h2>
+
+<input id="color" type="text">
+<button onclick="getColorAction()">Показати дію</button>
+
+<p id="result-3"></p>
+
+<input type="number" id="num1">
+<input type="number" id="num2">
+<select id="operation">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+</select>
+<button onclick="calculate()">Обчислити</button>
+<p id="result-4"></p>
+
     <script src="script.js"></script>
 </body>
 </html>
